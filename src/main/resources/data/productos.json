@@ -1,0 +1,31 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop Gaming",
+      "descripcion": "Laptop para gaming de alta gama",
+      "precio": 1299.99,
+      "categoria": "Tecnologia",
+      "stock": 15,
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Smartphone Android",
+      "descripcion": "Teléfono inteligente con Android 13",
+      "precio": 599.99,
+      "categoria": "Tecnologia",
+      "stock": 30,
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "nombre": "Auriculares Bluetooth",
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido",
+      "precio": 199.99,
+      "categoria": "Audio",
+      "stock": 0,
+      "disponible": false
+    }
+  ]
+}
