@@ -1,6 +1,5 @@
 package com.hackerank.productos.infrastructure.persistence;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hackerank.productos.domain.Producto;
 import com.hackerank.productos.domain.repository.ProductoRepository;
