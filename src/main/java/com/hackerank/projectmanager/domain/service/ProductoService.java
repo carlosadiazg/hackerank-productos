@@ -1,7 +1,7 @@
-package com.hackerank.productos.domain.service;
+package com.hackerank.projectmanager.domain.service;
 
 
-import com.hackerank.productos.domain.Producto;
+import com.hackerank.projectmanager.domain.Producto;
 
 import java.util.List;
 import java.util.Optional;

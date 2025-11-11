@@ -1,10 +1,10 @@
-package com.hackerank.productos.presentation.controller;
+package com.hackerank.projectmanager.presentation.controller;
 
-import com.hackerank.productos.application.service.ProductoMapper;
-import com.hackerank.productos.domain.Producto;
-import com.hackerank.productos.domain.service.ProductoService;
-import com.hackerank.productos.presentation.dto.ProductoRequest;
-import com.hackerank.productos.presentation.dto.ProductoResponse;
+import com.hackerank.projectmanager.application.service.ProductoMapper;
+import com.hackerank.projectmanager.domain.Producto;
+import com.hackerank.projectmanager.domain.service.ProductoService;
+import com.hackerank.projectmanager.presentation.dto.ProductoRequest;
+import com.hackerank.projectmanager.presentation.dto.ProductoResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

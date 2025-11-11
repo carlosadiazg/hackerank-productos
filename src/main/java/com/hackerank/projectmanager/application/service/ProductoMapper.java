@@ -1,8 +1,8 @@
-package com.hackerank.productos.application.service;
+package com.hackerank.projectmanager.application.service;
 
-import com.hackerank.productos.domain.Producto;
-import com.hackerank.productos.presentation.dto.ProductoRequest;
-import com.hackerank.productos.presentation.dto.ProductoResponse;
+import com.hackerank.projectmanager.domain.Producto;
+import com.hackerank.projectmanager.presentation.dto.ProductoRequest;
+import com.hackerank.projectmanager.presentation.dto.ProductoResponse;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
-package com.hackerank.productos.domain.repository;
+package com.hackerank.projectmanager.domain.repository;
 
-import com.hackerank.productos.domain.Producto;
+import com.hackerank.projectmanager.domain.Producto;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,8 +1,8 @@
-package com.hackerank.productos.domain;
+package com.hackerank.projectmanager.domain;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
-import com.hackerank.productos.domain.model.BaseEntity;
+import com.hackerank.projectmanager.domain.model.BaseEntity;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

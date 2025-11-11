@@ -1,4 +1,4 @@
-package com.hackerank.productos.domain.model;
+package com.hackerank.projectmanager.domain.model;
 
 import java.time.LocalDateTime;
 

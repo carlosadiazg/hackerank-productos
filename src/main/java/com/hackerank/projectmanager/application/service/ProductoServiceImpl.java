@@ -1,8 +1,8 @@
-package com.hackerank.productos.application.service;
+package com.hackerank.projectmanager.application.service;
 
-import com.hackerank.productos.domain.Producto;
-import com.hackerank.productos.domain.repository.ProductoRepository;
-import com.hackerank.productos.domain.service.ProductoService;
+import com.hackerank.projectmanager.domain.Producto;
+import com.hackerank.projectmanager.domain.repository.ProductoRepository;
+import com.hackerank.projectmanager.domain.service.ProductoService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

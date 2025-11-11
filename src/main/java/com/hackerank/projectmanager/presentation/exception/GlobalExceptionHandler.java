@@ -1,4 +1,4 @@
-package com.hackerank.productos.presentation.exception;
+package com.hackerank.projectmanager.presentation.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

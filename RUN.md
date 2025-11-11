@@ -9,7 +9,7 @@
 This project was written to use **Java 21**. 
 1. So, you have to **download it** and **install it** before run the project.
 2. Once you have done the previous step, open the project with **IntelliJ**, let **Gradle** resolves dependencies and wait a little bit.
-3. Now, locate the following file **src/main/java/com/hackerank/productos/ProductosApplication.java*
+3. Now, locate the following file **src/main/java/com/hackerank/projectmanager/ProductosApplication.java*
 4. Right clic and select Run.
 
 ## Testing the API in Postman

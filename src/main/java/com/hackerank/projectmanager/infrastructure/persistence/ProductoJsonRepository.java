@@ -1,8 +1,8 @@
-package com.hackerank.productos.infrastructure.persistence;
+package com.hackerank.projectmanager.infrastructure.persistence;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hackerank.productos.domain.Producto;
-import com.hackerank.productos.domain.repository.ProductoRepository;
+import com.hackerank.projectmanager.domain.Producto;
+import com.hackerank.projectmanager.domain.repository.ProductoRepository;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,7 +27,7 @@ public class ProductoJsonRepository implements ProductoRepository {
     private final Map<Long, Producto> productosMap = new ConcurrentHashMap<>();
     private final AtomicLong sequence = new AtomicLong(1000);
     private final ObjectMapper objectMapper = new ObjectMapper();
-    @Value("data/productos.json")
+    @Value("data/projectmanager.json")
     private String jsonFilePath;
 
     @PostConstruct

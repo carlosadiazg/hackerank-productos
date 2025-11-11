@@ -1,10 +1,10 @@
-package com.hackerank.productos.presentation.controller;
+package com.hackerank.projectmanager.presentation.controller;
 
-import com.hackerank.productos.application.service.ProductoMapper;
-import com.hackerank.productos.domain.Producto;
-import com.hackerank.productos.domain.service.ProductoService;
-import com.hackerank.productos.presentation.dto.ProductoRequest;
-import com.hackerank.productos.presentation.dto.ProductoResponse;
+import com.hackerank.projectmanager.application.service.ProductoMapper;
+import com.hackerank.projectmanager.domain.Producto;
+import com.hackerank.projectmanager.domain.service.ProductoService;
+import com.hackerank.projectmanager.presentation.dto.ProductoRequest;
+import com.hackerank.projectmanager.presentation.dto.ProductoResponse;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/v1/productos")
+@RequestMapping("/api/v1/projectmanager")
 @CrossOrigin(origins = "*")
 public class ProductoController {
 
